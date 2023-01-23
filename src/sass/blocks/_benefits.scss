@@ -1,0 +1,19 @@
+.benefits {
+    padding: 57px 0 51px 0;
+    background-color: #f3f3f3;
+    .row {
+        margin-top: 36px;
+    }
+    &__descr {
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+        h3 {
+            color: var(--text-color);
+        }
+    }
+    .col-1{
+        text-align: end;
+    }
+}

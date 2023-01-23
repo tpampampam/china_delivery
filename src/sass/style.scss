@@ -1,0 +1,31 @@
+
+@import 'libs/bootstrap-grid.min';
+@import 'libs/bootstrap-reboot.min';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+@import 'base/variables';
+@import 'blocks/button';
+@import 'blocks/title';
+
+@import 'blocks/header';
+@import 'blocks/benefits';
+@import 'blocks/delivery';
+@import 'blocks/agent';
+@import 'blocks/price';
+@import 'blocks/consultation';
+@import 'blocks/manage';
+
+
+
+* {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+
